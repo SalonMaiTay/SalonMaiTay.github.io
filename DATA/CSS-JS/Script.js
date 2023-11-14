@@ -80,5 +80,5 @@ function PlayMusicBG() {
 }
 
 function Voucher() {
-  alert('Rất tiếc đã hết quà tặng.')
+  alert('Chưa có sự kiện nào.')
 }

@@ -17,10 +17,12 @@ body {
 }
 .NoelMode .Footer {
     color: #ffffff;
+    text-shadow: 1px 1px 2px black ;
 }
 
 .Container {
     padding: 10px;
+    min-height: 110vh;
 }
 
 
@@ -247,7 +249,6 @@ button {
 
 .Footer {
     color: #000000;
-    text-shadow: 1px 1px 2px black ;
     font-size: 12px;
     position: fixed;
     width: 100%;
@@ -429,7 +430,7 @@ button {
 }
 .Noel .Two img {
     max-height: 70px;
-    max-width: 100%;
+    width: 100%;
 }
 
 @media only screen and (min-width: 1200px) {
