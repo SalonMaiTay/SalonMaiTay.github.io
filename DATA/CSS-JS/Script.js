@@ -73,6 +73,7 @@ function PlayMusicBG() {
     body.classList.add('NoelMode');
     snowflakes.style.display = 'block';
     setTimeout(() => {
+      snowflakes.style.display = 'none';
       body.classList.remove('NoelMode');
     }, 56000);
   }
