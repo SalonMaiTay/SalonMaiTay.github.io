@@ -40,7 +40,7 @@ button {
 
 .Head .Box {
     color: #ffffff;
-    background-color: #00000040;
+    background-color: #00000067;
     border-radius: 20px;
     padding: 16px;
 }
@@ -60,6 +60,7 @@ button {
 .Head .Box .Name {
     font-size: 30px;
     font-weight: bold;
+    text-shadow: 2px 2px 5px black ;
 }
 
 .Head .Box .Name p {
@@ -118,6 +119,7 @@ button {
 }
 
 .Body {
+    margin-top: 10px;
     color: #000000;
 }
 
@@ -159,7 +161,7 @@ button {
 
 .VideoShort video {
     cursor: pointer;
-    max-width: 100%;
+    max-width: 168px;
     height: 300px;
     border-radius: 10px;
     background-color: #010101;
