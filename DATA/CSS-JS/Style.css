@@ -252,11 +252,17 @@ button {
     text-decoration: none;
     font-weight: bold;
 }
+
 @media only screen and (min-width: 1000px) {
+    body {
+        background-color: #f4e6df;
+    }
+
     .Container {
         margin: 30px 500px;
         border-radius: 10px;
     }
+
     .Body .Menu {
         max-width: 100%;
         margin-top: -10px;
