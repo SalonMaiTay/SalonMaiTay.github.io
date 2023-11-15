@@ -10,7 +10,7 @@ body {
 }
 .NoelMode {
     color: #ffffff;
-    background-color: #061627;
+    background-color: #0f134e;
 }
 .NoelMode .Body {
     color: #ffffff !important;
@@ -20,6 +20,11 @@ body {
     text-shadow: 1px 1px 2px black ;
 }
 
+.NoelMode .Body #toggleButton {
+    color: #000;
+    background-color: #9AD9EA;
+    box-shadow: 0px 0px 0px 2px black;
+} 
 .Container {
     padding: 10px;
     min-height: 110vh;
@@ -129,7 +134,7 @@ button {
 
 .Body .Link button {
     display: block;
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     border: none;
     color: #ffffff;
@@ -139,7 +144,7 @@ button {
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 .Video h2 {
@@ -198,13 +203,18 @@ button {
 }
 
 .Body .Menu {
+    color: #000;
+    background-color: #f4e6df;
     display: none;
     width: 100%;
     margin-top: -10px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     animation-duration: 0.5s;
+    border-radius: 10px;
+    padding-bottom: 10px ;
 }
+
 
 .Menu-open {
     display: block !important;
